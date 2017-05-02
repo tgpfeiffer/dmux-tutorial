@@ -7,7 +7,7 @@ import sys
 # for educational purposes.
 
 if not len(sys.argv) == 2:
-    sys.stderr.write("usage: %s <n>\n")
+    sys.stderr.write("usage: %s <n>\n" % sys.argv[0])
     sys.exit(1)
 
 try:
