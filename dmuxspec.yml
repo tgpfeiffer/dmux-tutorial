@@ -1,0 +1,8 @@
+version: 0
+os: ubuntu==14.04
+features:
+- python==2.7
+hardware:
+- cpu==1
+- ram==128
+
